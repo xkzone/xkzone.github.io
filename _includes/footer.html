@@ -25,7 +25,7 @@
                     </li>
                     {% endif %}
 
-                    <!-- add Weibo, Zhihu by wblearn, add target = "_blank" to <a> by wblearn -->
+                    <!-- add Weibo, Zhihu by xkzone, add target = "_blank" to <a> by xkzone -->
                     {% if site.zhihu_username %}
                     <li>
                         <a target="_blank" href="https://www.zhihu.com/people/{{ site.zhihu_username }}">
@@ -94,11 +94,11 @@
                 <p class="copyright text-muted">
                     Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}
                     <br>
-                          powered by <a href="http://wblearn.github.io/">wblearn</a> 
+                          powered by <a href="http://xkzone.github.io/">xkzone</a> 
                     <!--<iframe
                         style="margin-left: 2px; margin-bottom:-5px;"
                         frameborder="0" scrolling="0" width="100px" height="20px"
-                        src="https://ghbtns.com/github-btn.html?user=wblearn&repo=wblearn.github.io&type=star&count=true" >
+                        src="https://ghbtns.com/github-btn.html?user=xkzone&repo=xkzone.github.io&type=star&count=true" >
                     </iframe>-->
                 </p>
             </div>
@@ -113,7 +113,7 @@
 <script src="{{ "/js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
 
 <!-- Custom Theme JavaScript -->
-<script src="{{ "/js/wblearn-blog.min.js " | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/xkzone-blog.min.js " | prepend: site.baseurl }}"></script>
 
 <!-- Service Worker -->
 {% if site.service-worker %}
@@ -145,7 +145,7 @@
      Because of the native support for backtick-style fenced code blocks 
      right within the Markdown is landed in Github Pages, 
      From V1.6, There is no need for Highlight.js, 
-     so wblearnblog drops it officially.
+     so xkzoneblog drops it officially.
 
      - https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0  
      - https://help.github.com/articles/creating-and-highlighting-code-blocks/ 
@@ -187,7 +187,7 @@
 <!-- Google Analytics -->
 {% if site.ga_track_id %}
 <script>
-    // dynamic User by wblearn
+    // dynamic User by xkzone
     var _gaId = '{{ site.ga_track_id }}';
     var _gaDomain = '{{ site.ga_domain }}';
 
@@ -206,7 +206,7 @@
 <!-- Baidu Tongji -->
 {% if site.ba_track_id %}
 <script>
-    // dynamic User by wblearn
+    // dynamic User by xkzone
     var _baId = '{{ site.ba_track_id }}';
 
     // Originial
@@ -249,7 +249,7 @@
 
     /*
      * Doc: https://github.com/davist11/jQuery-One-Page-Nav
-     * Fork by wblearn to support padding
+     * Fork by xkzone to support padding
      */
     async("{{ '/js/jquery.nav.js' | prepend: site.baseurl }}", function () {
         $('.catalog-body').onePageNav({
