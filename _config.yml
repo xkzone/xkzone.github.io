@@ -1,22 +1,22 @@
 # Site settings
-title: Wblearn Blog
-SEOTitle: Wblearn的博客 | Wblearn Blog
+title: xkzone Blog
+SEOTitle: xkzone的博客 | xkzone Blog
 header-img: img/home-bg-art.jpg
-email: 1275660493@qq.com
-description: "@wblearn,不要让任何事情成为你不去学习的理由！"
-keyword: "wblearn, @wblearn, wblearn的博客,wblearn Blog, 博客, 个人网站, 互联网"
-url: "http://wblearn.github.io/"              # your host, for absolute URL
+email: 502117449@qq.com
+description: "交友须带三分侠气，做人要存一点素心."
+keyword: "xkzone, @xkzone, xkzone的博客,xkzone Blog, 博客, 个人网站, 互联网"
+url: "http://xkzone.github.io/"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
 # SNS settings
 RSS: false
-weibo_username:     wudalanggd
-csdn_username:     wudalang_gd
-github_username:    wblearn
-#twitter_username:  wblearn
-jianshu_username:  48599dc7ef1b
+#weibo_username:     wudalanggd
+#csdn_username:     wudalang_gd
+github_username:    xkzone
+#twitter_username:  xkzone
+#jianshu_username:  48599dc7ef1b
 # linkedin_username:  firstname-lastname-idxxxx
 
 
@@ -51,28 +51,28 @@ kramdown:
 #disqus_username: _your_disqus_short_name_
 
 # Duoshuo settings
-duoshuo_username: wblearnblog
+duoshuo_username: xkzoneblog
 # Share component is depend on Comment so we can NOT use share only.
 duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
 
 # LiveRe setttings
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-livere_uid: MTAyMC8yODkzOC81NTA3
+livere_uid: MTAyMC81MjE3MC8yODY1MA
 
 # Analytics settings
 # Baidu Analytics 
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: wblearn.github.io
+ga_track_id: 'G-PCWLYLQRGS'            # Format: UA-xxxxxx-xx
+ga_domain: xkzone.github.io
 
 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "不要让任何事情成为你不去学习的理由！"
+sidebar-about-description: "交友须带三分侠气，做人要存一点素心."
 sidebar-avatar: /img/avatar-wb.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -109,12 +109,12 @@ defaults:
       layout: video
 
 # Friends
-friends: [
-    {
-        title: "wblearn的微博",
-        href: "http://weibo.com/wudalanggd"
-    },{
-        title: "study video",
-        href: "https://wblearn.github.io/study-video"
-    }
-]
+#friends: [
+#    {
+#        title: "xkzone的微博",
+#        href: "http://weibo.com/wudalanggd"
+#    },{
+#        title: "study video",
+#        href: "https://xkzone.github.io/study-video"
+#    }
+#]
